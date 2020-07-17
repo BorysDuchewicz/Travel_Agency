@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Office">
+      <UniqueIdentifier>{e2a4b41f-4e0a-4e17-ada9-53f0601004d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Libs">
+      <UniqueIdentifier>{8b95e795-aa9c-4c65-a571-daa0007fcdc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Office">
+      <UniqueIdentifier>{f9cc1798-f082-4459-baf4-80facf4c883b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Travel">
+      <UniqueIdentifier>{40a95d1d-48e3-4ec0-a3cb-c393375be4e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Travel">
+      <UniqueIdentifier>{5457171d-572c-486e-a609-24c9bc833d00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Connection">
+      <UniqueIdentifier>{ac00fa29-f609-4869-a6d2-fe45f140586b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Connection">
+      <UniqueIdentifier>{0f9a90b9-209c-4b0b-b46c-d159df10f03c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Travel\Repositroy">
+      <UniqueIdentifier>{e46e887b-6b8e-427c-928f-6777d161060b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Travel\Repository">
+      <UniqueIdentifier>{c5e1aeb4-3fa3-400b-a35b-109a862b738d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Service">
+      <UniqueIdentifier>{d7100ed6-dc5f-4ef0-a034-37b7892585c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Service">
+      <UniqueIdentifier>{e4176e2a-6821-4f30-a83b-0990877d3143}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="office.cpp">
+      <Filter>Source Files\Office</Filter>
+    </ClCompile>
+    <ClCompile Include="offices.cpp">
+      <Filter>Source Files\Office</Filter>
+    </ClCompile>
+    <ClCompile Include="travel.cpp">
+      <Filter>Source Files\Travel</Filter>
+    </ClCompile>
+    <ClCompile Include="db_connection.cpp">
+      <Filter>Source Files\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="travels_repository.cpp">
+      <Filter>Source Files\Travel\Repositroy</Filter>
+    </ClCompile>
+    <ClCompile Include="offer.cpp">
+      <Filter>Source Files\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="user_data_service.cpp">
+      <Filter>Source Files\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_service.cpp">
+      <Filter>Source Files\Service</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="json.hpp">
+      <Filter>Header Files\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="libs.h">
+      <Filter>Header Files\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3.h">
+      <Filter>Header Files\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="office.h">
+      <Filter>Header Files\Office</Filter>
+    </ClInclude>
+    <ClInclude Include="offices.h">
+      <Filter>Header Files\Office</Filter>
+    </ClInclude>
+    <ClInclude Include="travel.h">
+      <Filter>Header Files\Travel</Filter>
+    </ClInclude>
+    <ClInclude Include="db_connection.h">
+      <Filter>Header Files\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="travels_repository.h">
+      <Filter>Header Files\Travel\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="offer.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="user_data_service.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_service.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

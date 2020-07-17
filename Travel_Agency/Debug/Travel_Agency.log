@@ -1,0 +1,7 @@
+﻿  menu_service.cpp
+  offer.cpp
+G:\KMProgramowanie\CPP\Git\Travel_Agency\Travel_Agency\offer.cpp(89,20): warning C4018: '<': signed/unsigned mismatch
+  source.cpp
+  Generating Code...
+G:\KMProgramowanie\CPP\Git\Travel_Agency\Travel_Agency\offer.cpp(193,10): warning C4018: '<': signed/unsigned mismatch
+  Travel_Agency.vcxproj -> G:\KMProgramowanie\CPP\Git\Travel_Agency\Debug\Travel_Agency.exe
